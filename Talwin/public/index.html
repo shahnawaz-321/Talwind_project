@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <title>Tailwind</title>
+  </head>
+  <body>
+    <nav class="bg-white shadow-lg">
+      <div class="px-4 max-w-6xl">
+        <div class="flex justify-between">
+          <div class="flex space-x-7">
+            <div>
+              <a
+                href=""
+                class="flex items-centre py-4 px-2"
+              >
+                <img
+                  class="h-8 w-8 mr-2"
+                  src="images/house.png"
+                  alt=""
+                />
+                <span class="font-semibold text-gray-500"
+                  >Prime Properties</span
+                >
+              </a>
+            </div>
+
+            <div class="flex space-x-1 items-centre">
+              <a
+                class="py-4 px-2 border-green-500 border-b-4 text-gray-500 font-semibold"
+                href=""
+                >Home</a
+              >
+              <a
+                class="py-4 px-2 text-gray-500 hover:text-green-500 transition duration-300"
+                href=""
+                >Service</a
+              >
+              <a
+                class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300"
+                href=""
+                >About</a
+              >
+              <a
+                class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300"
+                href=""
+                >Contact</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="mt-10 px-4 md:mt-16">
+      <div class="sm:text-center lg:text-left">
+        <h1 class="tracking-tight font-extrabold text-4xl sm:5xl">
+          <span class="block">Premium Properties</span>
+          <span class="block text-green-500">Non-premium Prices</span>
+        </h1>
+        <p
+          class="mt-3 text-base text-gray-500 md:text-xl md:mt-5 sm:mt-5 sm:text-lg sm:max-w-xl"
+        >
+          At prime properties,we ensure that our clients get the best
+          propertiesat affordable prices.Luxury is our priority and budget is
+          our constrain .Pick and choose from 1000+ properties across the globe
+        </p>
+        <div class="mt-5 sm:mt-8 sm:flex sm:justify-center">
+          <div class="md:mt-2">
+            <a
+              class="flex justify-center rounded-md bg-green-500 px-8 py-3"
+              href=""
+              >View properties</a
+            >
+          </div>
+          <div class="md:mt-2 mx-2">
+            <a
+              href=""
+              class="flex justify-center rounded-md bg-green-100 px-8 py-3"
+              >Explore Location</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Side Banner -->
+    <div class="mt-5 flex justify-center pt-10">
+      <h2 class="text-3xl text-gray-500 mb-2">Recent Properties</h2>
+    </div>
+    <!-- card section -->
+    <div
+      class="grid p-10 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5"
+    >
+      <div class="rounded shadow-lg overflow-hidden">
+        <img
+          class="w-full"
+          src="images/home1.jpg"
+          alt=""
+        />
+        <div class="px-6 pt-4">
+          <div class="font-bold text-xl mb-2">Orchid Villa</div>
+          <p class="text-gray-700">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+            tempora nam temporibus modi sit consectetur error eius veniam
+            nostrum iusto molestiae, enim impedit nihil reprehenderit neque!
+            Tenetur laudantium dolor voluptatum.
+          </p>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span
+            class="inline-block text-green-300 font-bold text-sm px-3 py-1 mr-2 mb-2"
+            >$450,000</span
+          >
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >7 Beds</span
+          >
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >7 Baths</span
+          >
+        </div>
+        <div class="px-6 pt-4 pb-10">
+          <button
+            class="inline-block bg-green-500 rounded-full px-3 py-1 font-semibold text-white mr-2 mb-2"
+          >
+            View property
+          </button>
+        </div>
+      </div>
+      <div class="rounded shadow-lg overflow-hidden">
+        <img
+          class="w-full"
+          src="images/home2.jpg"
+          alt=""
+        />
+        <div class="px-6 pt-4">
+          <div class="font-bold text-xl mb-2">Orchid Villa</div>
+          <p class="text-gray-700">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+            tempora nam temporibus modi sit consectetur error eius veniam
+            nostrum iusto molestiae, enim impedit nihil reprehenderit neque!
+            Tenetur laudantium dolor voluptatum.
+          </p>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span
+            class="inline-block text-green-300 font-bold text-sm px-3 py-1 mr-2 mb-2"
+            >$450,000</span
+          >
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >7 Beds</span
+          >
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >7 Baths</span
+          >
+        </div>
+        <div class="px-6 pt-4 pb-10">
+          <button
+            class="inline-block bg-green-500 rounded-full px-3 py-1 font-semibold text-white mr-2 mb-2"
+          >
+            View property
+          </button>
+        </div>
+      </div>
+      <div class="rounded shadow-lg overflow-hidden">
+        <img
+          class="w-full"
+          src="images/home3.jpg"
+          alt=""
+        />
+        <div class="px-6 pt-4">
+          <div class="font-bold text-xl mb-2">Orchid Villa</div>
+          <p class="text-gray-700">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+            tempora nam temporibus modi sit consectetur error eius veniam
+            nostrum iusto molestiae, enim impedit nihil reprehenderit neque!
+            Tenetur laudantium dolor voluptatum.
+          </p>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span
+            class="inline-block text-green-300 font-bold text-sm px-3 py-1 mr-2 mb-2"
+            >$450,000</span
+          >
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >7 Beds</span
+          >
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >7 Baths</span
+          >
+        </div>
+        <div class="px-6 pt-4 pb-10">
+          <button
+            class="inline-block bg-green-500 rounded-full px-3 py-1 font-semibold text-white mr-2 mb-2"
+          >
+            View property
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Banner -->
+
+    <div
+      class="py-20 h-screen"
+      style="
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url('images/luxury.jpg');
+      "
+    >
+      <div class="container mx-auto px-6 mt-40">
+        <h2 class="text-4xl font-bold text-white mb-2">
+          Experience Luxury Like Never Before
+        </h2>
+        <h3 class="text-2xl mb-8 text-gray-200">
+          50+ Exotic location across the globe.
+        </h3>
+        <button class="text-white uppercase border-2 px-8 py-4 font-bold">
+          Explore Location
+        </button>
+      </div>
+    </div>
+    <div class="mt-5 flex justify-center pt-10">
+      <h2 class="text-3xl text-gray-500 mb-2">Location</h2>
+    </div>
+    <div
+      class="grid p-10 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5"
+    >
+      <div class="rounded shadow-lg overflow-hidden">
+        <img
+          class="w-full"
+          src="images/newyork.jpg"
+          alt=""
+        />
+        <div class="px-6 pt-4">
+          <div class="font-bold text-xl mb-2">Newyork</div>
+          <p class="text-gray-700 pb-8">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+            tempora nam temporibus modi sit consectetur error eius veniam
+            nostrum iusto molestiae, enim impedit nihil reprehenderit neque!
+            Tenetur laudantium dolor voluptatum.
+          </p>
+        </div>
+      </div>
+      <div class="rounded shadow-lg overflow-hidden">
+        <img
+          class="w-full"
+          src="images/chicago.jpg"
+          alt=""
+        />
+        <div class="px-6 pt-4">
+          <div class="font-bold text-xl mb-2">Chicago</div>
+          <p class="text-gray-700 pb-8">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+            tempora nam temporibus modi sit consectetur error eius veniam
+            nostrum iusto molestiae, enim impedit nihil reprehenderit neque!
+            Tenetur laudantium dolor voluptatum.
+          </p>
+        </div>
+      </div>
+      <div class="rounded shadow-lg overflow-hidden">
+        <img
+          class="w-full"
+          src="images/california.jpg"
+          alt=""
+        />
+        <div class="px-6 pt-4">
+          <div class="font-bold text-xl mb-2">California</div>
+          <p class="text-gray-700 pb-8">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+            tempora nam temporibus modi sit consectetur error eius veniam
+            nostrum iusto molestiae, enim impedit nihil reprehenderit neque!
+            Tenetur laudantium dolor voluptatum.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Testomonial Sections -->
+    <div class="mt-5 flex justify-center pt-10">
+      <h2 class="text-3xl text-gray-500 mb-2">What Clients say about us?</h2>
+    </div>
+    <div class="p-10 gap-5 grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3">
+      <div class="shadow-lg w-72 bg-white rounded-xl p-4">
+        <p class="text-gray-600">
+          <span class="text-green-500 text-lg font-bold">"</span>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+          minus provident repudiandae. Id cupiditate est ipsum voluptatum eius
+          quasi suscipit, nisi alias unde odit obcaecati facilis? Illum natus
+          tempore reprehenderit!
+          <span class="text-green-500 text-lg font-bold">"</span>
+        </p>
+        <div class="flex bg-green-100 rounded-full items-center mt-5">
+          <a
+            href="#"
+            class="block relative"
+          >
+            <img
+              class="h-10 w-10 rounded-full mx-auto"
+              src="images/avatar.png"
+              alt=""
+            />
+          </a>
+          <div class="flex flex-col ml-2 justify-between">
+            <span class="text-sm text-green-500 font-semibold"> Ashutosh </span>
+            <span class="text-xs flex items-center"> Director </span>
+          </div>
+        </div>
+      </div>
+      <div class="shadow-lg w-72 bg-white rounded-xl p-4">
+        <p class="text-gray-600">
+          <span class="text-green-500 text-lg font-bold">"</span>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+          minus provident repudiandae. Id cupiditate est ipsum voluptatum eius
+          quasi suscipit, nisi alias unde odit obcaecati facilis? Illum natus
+          tempore reprehenderit!
+          <span class="text-green-500 text-lg font-bold">"</span>
+        </p>
+        <div class="flex bg-green-100 rounded-full items-center mt-5">
+          <a
+            href="#"
+            class="block relative"
+          >
+            <img
+              class="h-10 w-10 rounded-full mx-auto"
+              src="images/avatar.png"
+              alt=""
+            />
+          </a>
+          <div class="flex flex-col ml-2 justify-between">
+            <span class="text-sm text-green-500 font-semibold">
+              Ashutosh Pawar</span
+            >
+            <span class="text-xs flex items-center">
+              Director of Optimum solution
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="shadow-lg w-72 bg-white rounded-xl p-4">
+        <p class="text-gray-600">
+          <span class="text-green-500 text-lg font-bold">"</span>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+          minus provident repudiandae. Id cupiditate est ipsum voluptatum eius
+          quasi suscipit, nisi alias unde odit obcaecati facilis? Illum natus
+          tempore reprehenderit!
+          <span class="text-green-500 text-lg font-bold">"</span>
+        </p>
+        <div class="flex bg-green-100 rounded-full items-center mt-5">
+          <a
+            href="#"
+            class="block relative"
+          >
+            <img
+              class="h-10 w-10 rounded-full mx-auto"
+              src="images/avatar.png"
+              alt=""
+            />
+          </a>
+          <div class="flex flex-col ml-2 justify-between">
+            <span class="text-sm text-green-500 font-semibold"> Ashutosh </span>
+            <!-- <span class="text-xs flex items-center"> Director </span> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-5 flex justify-center pt-10">
+      <h2 class="text-3xl text-gray-500 mb-2">Contact Us</h2>
+    </div>
+    <div class="bg-green-300 mt-5 flex p-10 justify-center items-center">
+      <form
+        action=""
+        class="w-full max-w-lg"
+      >
+        <div class="flex">
+          <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+            <label
+              for=""
+              class="block uppercase text-xs text-gray-700 font-bold mb-2"
+            >
+              First Name
+            </label>
+            <input
+              type="text"
+              class="block py-3 mb-3 px-4 w-full rounded text-gray-700"
+              placeholder="Jane"
+            />
+            <p class="text-sm text-green-500 italic">
+              please fill out of this field
+            </p>
+          </div>
+          <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+            <label
+              for=""
+              class="block uppercase text-xs text-gray-700 font-bold mb-2"
+            >
+              Last Name
+            </label>
+            <input
+              type="text"
+              class="block py-3 px-4 w-full rounded text-gray-700"
+              placeholder="Doe"
+            />
+          </div>
+        </div>
+
+        <div class="flex mb-6">
+          <div class="w-full px-3">
+            <label
+              for=""
+              class="block uppercase text-xs text-gray-700 font-bold mb-2"
+            >
+              Email
+            </label>
+            <input
+              type="text"
+              class="block py-3 px-4 w-full rounded text-gray-700"
+              placeholder="example@example.com"
+            />
+            <p class="text-sm text-gray-700 italic mt-2">
+              please fill out of this field
+            </p>
+          </div>
+        </div>
+        <div class="flex mb-6">
+          <div class="w-full px-3">
+            <label
+              for=""
+              class="block uppercase text-xs text-gray-700 font-bold mb-2"
+            >
+              Message
+            </label>
+            <textarea
+              type="text"
+              class="h-48 no-resize resize-none appearance-none block py-3 px-4 w-full rounded text-gray-700"
+              placeholder="example@example.com"
+            ></textarea>
+            <p class="text-sm text-gray-700 italic mt-2">
+              please fill out of this field
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="mx-3">
+            <button class="shadow bg-green-400 text-white py-2 px-5 rounded">
+              Send
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <!-- Footer parts we are defining  -->
+
+    <footer>
+      <div class="flex justify-center gap-8 mt-6">
+        <div class="my-3 h-4 w-8">
+          <img
+            src="images/house.png"
+            alt=""
+          />
+        </div>
+        <div class="my-4">
+          <h1 class="text-center text-gray-400 text-2xl font-bold">
+            Prime Properties
+          </h1>
+        </div>
+      </div>
+      <div class="grid justify-center grid-cols-4 mx-10 mt-5 w-100">
+        <div class="text-center">
+          <div class="text-2xl text-green-300">PRODUCT</div>
+          <div class="pt-2 text-xl">
+            <div>Features</div>
+            <div>Integerations</div>
+            <div>Pricing</div>
+            <div>FAQ</div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="text-2xl text-green-300">COMPANY</div>
+          <div class="pt-2 text-xl">
+            <div>Privacy</div>
+            <div>Terms of Service</div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="text-2xl text-green-300">DEVELOPERS</div>
+          <div class="pt-2 text-xl">
+            <div class="pr-5 font-smbold">Public API</div>
+            <div class="pl-2">Documentation</div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="text-2xl text-green-300">SOCIAL MEDIA</div>
+          <div class="mt-4">
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              class=""
+            >
+              <i class="mr-5 text-xl fab fa-facebook-f"></i>
+            </a>
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              class=""
+            >
+              <i class="mr-5 text-xl fab fa-twitter"></i>
+            </a>
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              class=""
+            >
+              <i class="mr-5 text-xl fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
